@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Hello ${state.user.name} !",
+                      "Hello, ${state.user.name} !",
                       style: Theme.of(context).textTheme.headlineMedium
                           ?.copyWith(fontWeight: FontWeight.bold),
                     ),
@@ -63,7 +63,7 @@ class HomeScreen extends StatelessWidget {
                       mood: state.lastTraining?.mood,
                       score: state.lastTraining?.getScoreAsString(),
                       showHeader: true,
-                      headerTitle: 'Today training',
+                      headerTitle: "Today's training",
                       showSeeAll: true,
                       onTap: () =>
                           Navigator.pushNamed(context, AppRoutes.trainingList),

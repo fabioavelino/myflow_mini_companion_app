@@ -56,7 +56,7 @@ class TrainingCard extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Text(
-                        headerTitle ?? 'Today training',
+                        headerTitle ?? "Today's training",
                         style: Theme.of(context)
                             .textTheme
                             .headlineSmall

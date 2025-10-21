@@ -4,6 +4,12 @@ A Flutter application for tracking training sessions and managing user data with
 
 ## Getting Started
 
+### What's delivered here ?
+
+- Flutter mini-app that simulates a patient-facing companion app for daily training
+sessions.
+- Small one-file server in Dart that listen to POST "/training" request and logs the content of it
+
 ### Prerequisites
 
 - Install Flutter SDK: [Set up and test drive Flutter](https://docs.flutter.dev/get-started/quick)
